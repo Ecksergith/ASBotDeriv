@@ -9,7 +9,7 @@ Este documento descreve como configurar e usar a integração com a API Deriv no
 1. Acesse [Deriv Developers](https://developers.deriv.com/)
 2. Faça login com sua conta Deriv
 3. Crie um novo aplicativo para obter um App ID
-4. Use o App ID padrão `1089` para testes
+4. Use o App ID padrão `36960` para testes
 
 ### 2. Configurar Variáveis de Ambiente
 
@@ -22,7 +22,7 @@ cp .env.example .env.local
 Configure as variáveis:
 
 ```env
-DERIV_APP_ID=1089
+DERIV_APP_ID=36960
 DERIV_API_TOKEN=seu_token_aqui
 NODE_ENV=development
 ```
