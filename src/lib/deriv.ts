@@ -5,14 +5,16 @@ export interface DerivConfig {
   isDemo: boolean
   apiUrl: string
   wsUrl: string
+  oauthUrl: string
 }
 
 export const DERIV_CONFIG: DerivConfig = {
   appId: process.env.DERIV_APP_ID || '36960', // App ID fornecido pelo usuário
   token: process.env.DERIV_API_TOKEN,
   isDemo: process.env.NODE_ENV !== 'production',
-  apiUrl: 'https://api.deriv.com',
-  wsUrl: 'wss://ws.deriv.com/websockets/v3'
+  apiUrl: 'https://api.deriv.com', // URL principal da API
+  wsUrl: 'wss://ws.deriv.com/websockets/v3', // WebSocket URL
+  oauthUrl: 'https://oauth.deriv.com/oauth2/authorize' // URL de autorização OAuth
 }
 
 // Símbolos disponíveis na Deriv

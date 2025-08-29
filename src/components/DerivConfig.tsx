@@ -263,7 +263,7 @@ export default function DerivConfig() {
                       Obtenha seu token em: Deriv API Settings → Generate Token
                     </p>
                     <p className="text-xs text-blue-400">
-                      💡 Modo teste: Use "demo_" + qualquer texto para testar
+                      💡 Modo teste: Use "demo_" + qualquer texto para testar (ex: demo_teste123)
                     </p>
                   </div>
 
